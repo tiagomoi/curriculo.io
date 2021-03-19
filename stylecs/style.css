@@ -1,7 +1,8 @@
-.whatsapp {position: fixed;top: 82%;left: 1%;padding: 10px;z-index: 10000000;}
+.whatsapp {position: fixed;top: 82%;left: 3%;padding: 10px;z-index: 10000000;}
 .text-dev {
-    color: #98CA3F;
+    color: #080808;
     background-color: #E6F2C7;
+    text-emphasis-color: rgb(19, 9, 9);
 }
 
 .display-5 {
@@ -30,3 +31,257 @@
     height: 2px;
     margin-left: 5px;
 }
+.text-dev {
+  width: 13vw;
+  height: 2vw;
+
+  border-radius: 1%;
+
+  background-color: #E6F2C7;
+
+  animation: pulse 2s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(95, 227, 106, 0.7);
+    transform: scale(1.02);
+  }
+  50% {
+    box-shadow: 0 0 0 100px rgba(95, 227, 106, 0);
+    transform: scale(1);
+  }
+  100% {
+    box-shadow: 0 0 0 300px rgba(95, 227, 106, 0);
+    transform: scale(1);
+  }
+}
+
+.pulse svg {
+  width: 100%;
+  height: 100%;
+}
+.num{
+    width: 22vw;
+    height: 24vw;
+
+    border-radius: 50%;
+    background-color: transparent;
+
+    border: px solid #222;
+
+    position: relative;
+}
+
+.num:after{
+    content: '';
+    position: absolute;
+
+    top: -1px;
+    left: -1px;
+
+    border-top: px solid rgb(26, 25, 25);
+    border-right: px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: px solid transparent;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+
+    background-color: transparent;
+
+    animation: pulse 5s ease infinite ;
+
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(3600deg);
+    }
+}
+
+h1{
+    color: rgb(12, 11, 11);
+
+    position: absolute;
+
+    font-size: 2vw;
+
+    z-index: 5;
+
+    animation: blink 2s infinite alternate;
+}
+
+@keyframes blink{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.box {
+    width: 200px;
+    height: 200px;
+  
+    position: relative;
+    top: 10vh;
+    left: 450px;
+  
+    cursor: pointer;
+  
+    background: url(../svg/logo_ny.svg);
+  
+    background-position: 50% 50%;
+    background-size: 400px;
+  
+    border: 1px solid #5fe36a;
+    border-radius: 5px;
+  
+    z-index: 500;
+  
+    transform: rotate(-45deg) skew(25deg);
+  
+    box-shadow: -115px 80px 20px rgba(0, 0, 0, 0.9);
+  
+    /*box-shadow: -90px 60px 20px rgba(0,0,0,1);*/
+  
+    /*transition: .5s;*/
+  
+    animation: float 1s ease infinite alternate;
+  }
+  
+  @keyframes float {
+    to {
+      transform: rotate(-45deg) skew(25deg) translate(50px, -50px);
+  
+      /*transition: .5s;*/
+  
+      box-shadow: -150px 115px 100px rgba(157, 252, 161, 0.7);
+    }
+  }
+  
+  .box:hover {
+    transform: rotate(-45deg) skew(25deg) translate(50px, -50px);
+  
+    transition: 0.5s;
+  
+    box-shadow: -150px 115px 100px rgba(157, 252, 161, 0.7);
+  
+    /*box-shadow: -150px 115px 100px rgba(0,0,0,1);*/
+  }
+  
+  .box:before {
+    content: "";
+    width: 10px;
+    height: 100%;
+  
+    position: absolute;
+    top: 0;
+    left: -52px;
+  
+    z-index: -2;
+  
+    background-color: #35c44d;
+    border: 1px solid #35c44d;
+    border-radius: 5px;
+  
+    transform: skewY(-35deg) translateX(-50px);
+  }
+  
+  .box:after {
+    content: "";
+    width: 100%;
+    height: 70px;
+  
+    position: absolute;
+    top: 100%;
+    left: -53px;
+  
+    z-index: -3;
+  
+    background-color: #35c44d;
+    border: 1px solid #35c44d;
+    border-radius: 5px;
+  
+    transform: skewX(-55deg) translateY(-1px);
+  }
+
+
+  .fim {
+    position: relative;
+    
+    left: 39%;
+    
+    align-items: center;
+    
+    width: 10vw;
+    height: 10vw;
+
+    border-radius: 50%;
+    background-color: rgb(34, 3, 3);
+
+    border: 8px solid rgb(44, 41, 41);
+
+    position: center;
+}
+ .fim:after{
+    content: '';
+    position: absolute;
+
+    top: -2px;
+    right: -1px;
+    
+    border-top: 2px solid #35c44d;
+    border-right: 6px solid #35c44d;
+    border-bottom: 1px solid transparent;
+    border-left: 3px solid transparent;
+    
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+
+    background-color: transparent;
+
+    animation: spin 5s ease infinite ;
+
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(3600deg);
+    }
+}
+
+.fim{
+    color: rgb(199, 157, 157);
+
+    position: relative;
+    
+    text-align: center;
+
+    font-size: 4vw;
+    top: -2px;
+    z-index: 9;
+
+    animation: blink 2s infinite alternate;
+}
+
+@keyframes blink{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+  
