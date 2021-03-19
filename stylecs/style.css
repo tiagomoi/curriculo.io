@@ -234,6 +234,10 @@ h1{
     content: '';
     position: absolute;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     top: -2px;
     right: -1px;
     
@@ -265,9 +269,9 @@ h1{
 .fim{
     color: rgb(199, 157, 157);
 
-    position: relative;
-    
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     font-size: 4vw;
     top: -2px;
