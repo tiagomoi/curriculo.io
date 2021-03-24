@@ -31,7 +31,7 @@
 ![App Screenshot](https://github.com/tiagomoi/tiagomoi/blob/main/2.gif)
 <p align="center">
   <a href="https://tiagomoi.github.io/VCardeGourmet/" target="_blank">
-    <img alt="Demo on Netlify" src="https://github.com/tiagomoi/tiagomoi/blob/main/2.gif">
+    <img alt="Demo on Netlify" src="https://github.com/tiagomoi/tiagomoi/blob/main/1.gif">
   </a>
 </p>
 
