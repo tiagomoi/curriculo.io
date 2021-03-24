@@ -64,3 +64,5 @@ Made with ♥ by Tiago Moises :wave: [Get in touch!](https://www.instagram.com/d
 [yarn]: https://yarnpkg.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
+<img src="https://tiagomoi.github.io/VCardeGourmet" alt="github" height="40" data-canonical-src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" style="max-width:100%;">
