@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://github.com/tiagomoi/tiagomoi/blob/main/capa.JPG" alt="codepain API" width="100%"/>
+    <img src="https://github.com/tiagomoi/tiagomoi/blob/main/capa.JPG" alt="codepain API" width="70%"/>
     <br>
     Cartão de visita digital gourmetizado
 </h1>
