@@ -1,8 +1,5 @@
-# https://tiagomoi.github.io/curriculo.io/
-Meu curriculo em HTML
-
 <h1 align="center">
-    <img src="https://github.com/tiagomoi/tiagomoi/blob/main/codepain.JPG" alt="codepain API" width="120" />
+    <img src="https://github.com/tiagomoi/tiagomoi/blob/main/codepain.JPG" alt="codepain API" width="120" border-radius="50%" />
     <br>
     Cartão de visita digital gourmetizado
 </h1>
