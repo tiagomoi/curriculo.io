@@ -1,6 +1,6 @@
 [Pojeto Pronto](https://tiagomoi.github.io/VCardeGourmet/)
 <h1 align="center">
-    <img src="https://github.com/tiagomoi/tiagomoi/blob/main/capa.JPG" alt="codepain API" width="70%"/>
+    <img src="https://github.com/tiagomoi/tiagomoi/blob/main/capa.JPG" alt="codepain API" width="100%"/>
     <br>
     Cartão de visita digital gourmetizado
 </h1>
@@ -65,4 +65,3 @@ Made with ♥ by Tiago Moises :wave: [Get in touch!](https://www.instagram.com/d
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 
-<img src="https://tiagomoi.github.io/VCardeGourmet" alt="github" height="40" data-canonical-src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" style="max-width:100%;">
